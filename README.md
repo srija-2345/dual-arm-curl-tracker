@@ -1,4 +1,4 @@
-AI Fitness - Both Arm Counter
+Dual Arm Curl Counter
 
 A real-time arm exercise counter using OpenCV and Pose Estimation. This project detects the angles of your arms and counts repetitions automatically for both the right and left arms.
 
@@ -32,9 +32,8 @@ Usage
 
 Clone the repository:
 
-git clone https://github.com/yourusername/AI-Fitness-Arm-Counter.git
-cd AI-Fitness-Arm-Counter
-
+git clone [your repository URL]
+cd dual-arm-curl-tracker
 
 Ensure PoseEstimationModule.py is in the same folder.
 
@@ -42,8 +41,7 @@ Run the application:
 
 python main.py
 
-
-Controls:
+Controls
 
 Press q to quit
 
@@ -60,8 +58,8 @@ Repetition Counting: Updates counters based on specific angle thresholds
 Visualization: Displays bars for each arm, repetition counts, and FPS on the screen
 
 File Structure
-AI-Fitness-Arm-Counter/
-│
-├─ main.py                  # Main application
-├─ PoseEstimationModule.py  # Pose estimation helper
-├─ README.md                # Project documentation
+
+dual-arm-curl-tracker/
+├─ main.py # Main application
+├─ PoseEstimationModule.py # Pose estimation helper
+├─ README.md # Project documentation
